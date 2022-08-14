@@ -1,8 +1,8 @@
 pipeline {
 
-//    agent {
-//        label 'master'
-//    }
+    agent {
+        label 'master'
+    }
 
     environment {
         image = "excitaez/demo-nodejs"
